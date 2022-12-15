@@ -1,0 +1,238 @@
+/* General */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+
+.header-wrapper .navbar-brand img{
+    max-width: 10rem;
+    height: auto;
+}
+.cart{
+    max-width: 3rem;
+    height: auto;
+   
+}
+
+
+.navbar-toggler:focus{
+    box-shadow: none;
+    border: none;
+}
+.nav-item{
+    margin: 0 0.625rem;
+}
+
+.navbar-light .navbar-text a, .navbar-light .navbar-text a:focus, .navbar-light .navbar-text a:hover {
+    color: rgb(255, 255, 255) ;
+}
+/* .dropdown-menu */
+
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: 8rem;
+   
+}
+.last-menu{
+    border-bottom: 1px solid rgb(174, 174, 174);
+}
+
+.nb-sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+/* search  */
+.form-control {
+    border: 1px 0px 1px 1px solid #ced4da;
+    border-radius: .25rem 0 0 .25rem;
+   
+}
+[type=search], [type=email]  {
+    color: black !important;
+    background-color: #fff ;
+}
+
+.btn-warning{
+    border-radius: 0 .25rem .25rem 0;
+    background-color: #FED28B;
+    border-color: #FED28B;
+}
+
+.header-wrapper a{
+    color: black;
+    font-size: 1.2rem;
+}
+/* Hero-section  */
+
+.carousel-item{
+    height: auto;
+}
+.carousel-inner{
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 12.25rem;
+    left: 6%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+
+
+.f-title, .s-title{
+text-shadow: 1px 1px 2px black;
+}
+.f-title{
+font-size: 3rem;
+}
+
+.s-title{
+font-size: 5rem;
+}
+
+
+/* section 2 */
+marquee{
+    font-size: 2rem;
+    background-color: #FED28B;
+    
+}
+
+/* section 3 */
+.card{
+    border: none;
+    
+}
+.card-title{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 2px;
+ 
+
+}
+.card-img-overlay:hover > .card-title{
+    background-color: #ffffff;
+   color: #000000;
+    padding: 5px 15px;
+    border-radius: 2px;
+   
+   
+    
+}
+.card-img-overlay:hover{
+    background: radial-gradient(circle at top right, #fed28b4d 50%, #0000003c 50%);
+    transition: all .4s linear;
+    
+}
+.section-3 h2{
+    font-size: 2.9rem;
+}
+
+.section-3 p{
+    font-size: 1.1rem;
+   
+}
+.section-3 button{
+    font-size: 1.1rem;
+    background-color: transparent;
+    color: #000000;
+    padding: 5px 15px;
+    border-radius: 2px;
+    border: 2px solid black;
+
+}
+
+/* section-4 */
+
+.product-regular-price {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    color: #797b7e;
+    text-decoration: line-through black;
+}
+
+.product-sale-price{
+    font-size: 1.6rem;
+    line-height: 1.1;
+    color: #242424;
+}
+
+
+.home .card-img-top{
+    border-radius: 30px;
+    border: #272626 solid 1px;
+}
+
+.h-100{
+    border-radius: 30px;
+}
+.products-name{
+    text-shadow: 1px 1px 1px #3c3c3c ;
+    color:#2c2b2b ;
+    font-size: 1.5rem;
+    
+}
+
+.btn-link{
+    color: #000000;
+}
+
+
+/* section-5  */
+.poster-text{
+    color: #fbcb7e;
+    font-size: 2rem;
+}
+.poster-title{
+font-size: 2.8rem;
+}
+
+.section-5 p{
+font-size: 1.3rem;
+margin-top: 20px;
+}
+
+
+/* section-6 */
+
+
+/* shop */
+.p-name{
+    font-size: 4rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+
+
+
+/* watches-sec  */
+.baner-titl{
+font-size: 2.5rem;
+}
+.baner-txt{
+font-size: 1.5rem;
+}
+
+/* Sign up */
+
+hr{
+    color: rgb(164, 163, 163);
+}
+.form-control:focus{
+  
+    color: black !important;
+    background-color: #fff ;
+}
+    
